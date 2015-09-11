@@ -17,6 +17,9 @@ eureka:
     region: default
     registryFetchIntervalSeconds: 5
 
+ribbon:
+  ServerListRefreshInterval: 5000
+
 ---
 spring:
   profiles: cloud
