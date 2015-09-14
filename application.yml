@@ -20,7 +20,7 @@ eureka:
 ribbon:
   ServerListRefreshInterval: 5000
 
-hystrix.default.execution.isolation.strategy: SEMAPHORE
+hystrix.command.default.execution.isolation.strategy: SEMAPHORE
 
 ---
 spring:
