@@ -20,6 +20,8 @@ eureka:
 ribbon:
   ServerListRefreshInterval: 5000
 
+hystrix.default.execution.isolation.strategy: SEMAPHORE
+
 ---
 spring:
   profiles: cloud
