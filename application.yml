@@ -34,3 +34,11 @@ eureka:
   client:
     serviceUrl:
       defaultZone: ${vcap.services.${PREFIX:}eureka.credentials.uri:http://${PREFIX:}eureka.${APPLICATION_DOMAIN:cfapps.io}}/eureka/
+
+---
+spring:
+  profiles: dev
+eureka:
+  instance:
+    nonSecurePortEnabled: false
+    securePortEnabled: true
