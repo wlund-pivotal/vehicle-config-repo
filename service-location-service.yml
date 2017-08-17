@@ -4,5 +4,5 @@ spring:
   data:
     mongodb:
 #      uri: mongodb://${MONGODB_USERNAME}:${MONGODB_PASSWORD}@${MONGODB_HOST}:${MONGODB_PORT}/test}
-      host=10.193.145.103
+      uri: mongo://root:bitnami@10.193.145.103:27017/test
   
