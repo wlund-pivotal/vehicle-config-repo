@@ -4,4 +4,4 @@ spring:
   data:
     mongodb:
 #      uri: ${vcap.services.${PREFIX:}mongodb.credentials.uri:mongodb://${MONGODB_HOST:localhost}:${MONGODB_PORT:27017}/test}
-       uri: mongodb://root:bitnami@10.193.145.103/test
+       uri: mongodb://52.173.144.113/test
