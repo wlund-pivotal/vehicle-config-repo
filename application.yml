@@ -53,11 +53,3 @@ eureka:
     nonSecurePortEnabled: true
     securePortEnabled: false
     
-security:
-  enabled: false
-  basic:
-    enabled: false
-
-management:
-  security:
-    enabled: false    
